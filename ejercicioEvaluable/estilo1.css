@@ -1,0 +1,14 @@
+#primero:hover{
+    background-color: aqua;
+    color: blue;
+}
+#tercero:visited{
+    background-color: black;
+    color: red;
+}
+#segundo:link{
+    color: yellow;
+}
+#cuarto:active{
+    color: brown;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <style type="text/CSS">
+        #contenedor{
+            width: 50%;
+        }
+        #primero{
+            color: gray;
+            font-size: x-large;
+        }
+        #fecha,#hombre,#mujer{
+            color: gray;
+        }
+        #nombre,#apellido,#correo,#cont{
+            background-color: whitesmoke;
+            
+        }
+        #correo,#cont{
+            width: 36.8%;
+        }
+        p{color: gray;}
+        input{
+            border-radius: 5px;
+        }
+        #boton{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 14%;
+            border-radius: 17px;
+            background-color: green;
+            color: white;
+        }
+        a{
+            margin-top: 30px;
+            margin-bottom: 20px;
+            width: 15%;
+            font-size: 18px;
+            border-radius: 20px;
+            background-color: green;
+            color: white; 
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <form action="bienvenidoNuevo.html" method="get">
+            <h1>Registrarte</h1>
+            <p id="primero">Es rápido y facil</p>
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="text" name="" id="apellido" placeholder="Apellido" required><br>
+            <input type="email" name="" id="correo" placeholder="Telefono o correo" required><br>
+            <input type="password" name="" id="cont" placeholder="Contraseña nueva"><br>
+            <p>Fecha de nacimiento</p>
+            <input type="date" name="" id="fecha"><br>
+            <p>Sexo</p>
+            <input type="radio" name="rr" id="hombre" value="Hombre">Hombre
+            <input type="radio" name="rr" id="mujer" value="Mujer">Mujer<br>
+            <input type="submit" value="Registrarte" id="boton">
+            <a href="paginaPrincipal.html">Cancelar</a>
+        </form>
+    </div>
+
+
+    
+</body>
+</html>

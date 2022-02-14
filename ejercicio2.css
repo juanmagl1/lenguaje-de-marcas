@@ -1,0 +1,15 @@
+h1{color: teal;}
+p strong{color: red;}
+.destacado{color: yellow;}
+#subtitulo{color: blue;}
+a{color: red;}
+p a em{color: blue;}
+p.especial{color: blue;}
+caption{color: blue;}
+.especial{color: orange;}
+td{color: green;}
+td strong{color: orange;}
+th{color: red;}
+#adicional{color: olive;}
+#especial{color: blue;}
+#adicional p a{color: green;}

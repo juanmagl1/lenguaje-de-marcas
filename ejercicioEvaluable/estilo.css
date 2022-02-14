@@ -1,0 +1,12 @@
+#primero:hover{
+    background-color: blue;
+    color: white;
+    font-size: x-large;
+}
+
+#segundo:active{
+    color: chartreuse;
+}
+input:required{
+    border:2px solid violet;
+}
